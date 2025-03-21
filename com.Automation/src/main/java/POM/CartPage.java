@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class CartPage {
-    WebDriver driver;
+    WebDriver driver;;
 
     // Locate the "Add to Cart" button
     @FindBy(css = "input[value='Add to cart']")
